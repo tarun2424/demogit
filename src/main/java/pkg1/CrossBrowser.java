@@ -51,9 +51,9 @@ public class CrossBrowser {
 		Thread.sleep(2000);
 		driver.findElement(By.partialLinkText("Sign")).click();
 		Thread.sleep(2000);
-	//	driver.findElement(By.xpath("//input[@name='username']")).sendKeys("tarun");
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("tarun");
 	//	driver.findElement(By.xpath("//input[contains(@id,'ripe')]")).sendKeys("tarun");
-		driver.findElement(By.cssSelector("[id*=stripe]")).sendKeys("tarun");
+	//	driver.findElement(By.cssSelector("[id*=stripe]")).sendKeys("tarun");
 		driver.findElement(By.name("password")).clear();
 		Thread.sleep(2000);
 		driver.findElement(By.name("password")).sendKeys("itc@1234");
